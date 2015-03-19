@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.Toast;
-//Test
+
 
 public class MainActivity extends ActionBarActivity {
     private AutoCompleteTextView acCountry, acInput;
@@ -22,7 +22,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         findViews();
     }
-
+//123
     public void findViews() {
         acCountry = (AutoCompleteTextView)findViewById(R.id.acCountry);
         // getResources()會得到Resource物件，再透過getStringArray取得字串陣列
