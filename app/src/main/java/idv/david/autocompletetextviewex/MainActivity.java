@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.Toast;
-
+//Test
 
 public class MainActivity extends ActionBarActivity {
     private AutoCompleteTextView acCountry, acInput;
